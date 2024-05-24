@@ -2,7 +2,7 @@ export function homeLoad(){
   const content = document.getElementById("content");
 
   const img = document.createElement("img");
-  img.src = '/imgs/gusteau.png';
+  img.src = 'imgs/gusteau.png';
   content.appendChild(img);
 
   const headerText = document.createElement("header");
