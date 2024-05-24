@@ -1,14 +1,18 @@
+import gourmet from "./imgs/gourmet_menu.png";
+import little_chef from "./imgs/little_chef_menu.png";
+import remy from "./imgs/remy_menu.png";
+
 export function menuLoad() {
   const content = document.getElementById("content");
 
   const gourmet_menu_img = document.createElement("img");
-  gourmet_menu_img.src = 'imgs/gourmet_menu.png';
+  gourmet_menu_img.src = gourmet;
 
   const little_chef_menu_img = document.createElement("img");
-  little_chef_menu_img.src = 'imgs/little_chef_menu.png';
+  little_chef_menu_img.src = little_chef;
 
   const remy_menu_img = document.createElement("img");
-  remy_menu_img.src = 'imgs/remy_menu.png';
+  remy_menu_img.src = remy;
 
   content.appendChild(remy_menu_img);
   content.appendChild(little_chef_menu_img);

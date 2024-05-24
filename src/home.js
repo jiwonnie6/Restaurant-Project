@@ -1,8 +1,10 @@
+import gusteau from "./imgs/gusteau.png";
+
 export function homeLoad(){
   const content = document.getElementById("content");
 
   const img = document.createElement("img");
-  img.src = 'imgs/gusteau.png';
+  img.src = gusteau;
   content.appendChild(img);
 
   const headerText = document.createElement("header");
