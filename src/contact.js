@@ -27,6 +27,7 @@ export function contactLoad() {
 
     #content div {
       width: 200px;
+      text-align: center;
     }
   `;
 
