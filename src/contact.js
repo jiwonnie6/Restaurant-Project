@@ -22,10 +22,7 @@ export function contactLoad() {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-    }
-
-    #content header {
-      padding-top: 20px;
+      padding: 1.5em;
     }
 
     #content div {

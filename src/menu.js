@@ -24,6 +24,11 @@ export function menuLoad() {
       display: flex;
       flex-direction: row;
     }
+
+    #content header {
+      font-size: 30px;
+    }
+    
     #content img {
       height: 550px;
     }

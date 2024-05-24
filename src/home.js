@@ -24,17 +24,18 @@ export function homeLoad(){
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      padding: 1em;
     }
 
     #content img {
       height: 300px;
-      padding-top: 30px;
-      padding-bottom: 18px;
+      margin-top: 25px;
+      margin-bottom: 18px;
     }
 
     #content header {
       font-size: 30px;
-      padding-bottom: 15px;
+      margin-bottom: 15px;
     }
 
     #content div {
